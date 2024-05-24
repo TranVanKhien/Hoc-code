@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        border: 1px solid black;
+        background-color: rgb(180, 181, 181);
+    }
+    .header-menu{
+        display: inline;
+        justify-content: start;
+    }
+    .header{
+        justify-content: start;
+        margin-left: 10px;
+    }
+    .menu{
+        display: flex;
+        margin-left:10px ;
+    }
+    .muiten{
+        justify-content: start;
+        margin-left: 10px;
+    }
+
+
+
+    .container1{
+        margin-top: 20px;
+        display: flex;
+        justify-content: start;
+        border: 0px solid black;
+        background-color: orange;
+        width: 30%;
+        height: 260px;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+    .tong{
+        display: block;
+        background-color: rgb(164, 164, 164);
+        border: 0px solid black;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .ảnh{
+        display: block;
+        justify-content: start;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .logo{
+        justify-content: start;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .item{
+        display: inline;
+        justify-items: start;
+    }
+    .text{
+        justify-content: start;
+    }
+    .textt{
+        font-family: roboto;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .nd{
+        font-family: roboto;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .icon{
+        display: flex;
+        justify-content: start;
+        margin-top: 65px;
+        margin-left: 20px;
+    }
+    .iconn{
+        display: inline;
+        padding: 15px 5px;
+        margin-left: 10px;
+    }
+
+
+
+    .container2{
+        margin-top: 20px;
+        display: flex;
+        justify-content: start;
+        border: 0px solid black;
+        background-color: rgb(139, 235, 248);
+        width: 30%;
+        height: 260px;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+    .tong1{
+        display: block;
+        background-color: rgb(164, 164, 164);
+        border: 0px solid black;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .ảnh1{
+        display: block;
+        justify-content: start;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .logo1{
+        justify-content: start;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .item1{
+        display: inline;
+        justify-items: start;
+    }
+    .text1{
+        justify-content: start;
+    }
+    .textt1{
+        font-family: roboto;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .nd1{
+        font-family: roboto;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .icon1{
+        display: flex;
+        justify-content: start;
+        margin-top: 65px;
+        margin-left: 20px;
+    }
+    .iconn1{
+        display: inline;
+        padding: 15px 5px;
+        margin-left: 10px;
+    }
+
+
+    .container3{
+        margin-top: 20px;
+        display: flex;
+        justify-content: start;
+        border: 0px solid black;
+        background-color: rgb(240, 194, 114);
+        width: 30%;
+        height: 260px;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+    .tong2{
+        display: block;
+        background-color: rgb(164, 164, 164);
+        border: 0px solid black;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .ảnh2{
+        display: block;
+        justify-content: start;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .logo2{
+        justify-content: start;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .item2{
+        display: inline;
+        justify-items: start;
+    }
+    .text2{
+        justify-content: start;
+    }
+    .textt2{
+        font-family: roboto;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .nd2{
+        font-family: roboto;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .icon2{
+        display: flex;
+        justify-content: start;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .iconn2{
+        display: inline;
+        padding: 15px 5px;
+        margin-left: 10px;
+    }
+
+
+
+    .container4{
+        margin-top: 20px;
+        display: flex;
+        justify-content: start;
+        border: 0px solid black;
+        background-color: rgb(68, 111, 250);
+        width: 30%;
+        height: 260px;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+    .tong3{
+        display: block;
+        background-color: rgb(164, 164, 164);
+        border: 0px solid black;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .ảnh3{
+        display: block;
+        justify-content: start;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .logo3{
+        justify-content: start;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .item3{
+        display: inline;
+        justify-items: start;
+    }
+    .text3{
+        justify-content: start;
+    }
+    .textt3{
+        font-family: roboto;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .nd3{
+        font-family: roboto;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .icon3{
+        display: flex;
+        justify-content: start;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .iconn3{
+        display: inline;
+        padding: 15px 5px;
+        margin-left: 10px;
+    }
+
+
+
+    .container5{
+        margin-top: 20px;
+        display: flex;
+        justify-content: start;
+        border: 0px solid black;
+        background-color: rgb(55, 230, 233);
+        width: 30%;
+        height: 260px;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+    .tong4{
+        display: block;
+        background-color: rgb(164, 164, 164);
+        border: 0px solid black;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .ảnh4{
+        display: block;
+        justify-content: start;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .logo4{
+        justify-content: start;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .item4{
+        display: inline;
+        justify-items: start;
+    }
+    .text4{
+        justify-content: start;
+    }
+    .textt4{
+        font-family: roboto;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .nd4{
+        font-family: roboto;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .icon4{
+        display: flex;
+        justify-content: start;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .iconn4{
+        display: inline;
+        padding: 15px 5px;
+        margin-left: 10px;
+    }
+
+
+
+    .container6{
+        margin-top: 20px;
+        display: flex;
+        justify-content: start;
+        border: 0px solid black;
+        background-color: rgb(77, 239, 163);
+        width: 30%;
+        height: 260px;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+    .tong5{
+        display: block;
+        background-color: rgb(164, 164, 164);
+        border: 0px solid black;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .ảnh5{
+        display: block;
+        justify-content: start;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .logo5{
+        justify-content: start;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .item5{
+        display: inline;
+        justify-items: start;
+    }
+    .text5{
+        justify-content: start;
+    }
+    .textt5{
+        font-family: roboto;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .nd5{
+        font-family: roboto;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .icon5{
+        display: flex;
+        justify-content: start;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .iconn5{
+        display: inline;
+        padding: 15px 5px;
+        margin-left: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="header-menu">
+             <div class="header"><img src="ảnh/Header.png" alt=""></div>
+             <div class="menu">
+                 <div class="muiten"><img src="ảnh/chevron-left.png" alt=""></div>
+                 <div class="muiten"><img src="ảnh/Speakers.png" alt=""></div>
+             </div>
+        </div>
+        <div class="container1">
+            <div class="tong">
+            <div class="ảnh"><img src="ảnh/Ava.png" alt=""></div>
+            <div class="logo">
+                <div class="item"><img src="ảnh/Telegram_black.png" alt=""></div>
+                <div class="item"><img src="ảnh/Dribbble_black.png" alt=""></div>
+                <div class="item"><img src="ảnh/LinkedIN_black.png" alt=""></div>
+                <div class="item"><img src="ảnh/Behance_black.png" alt=""></div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="textt">Olivia <br>Little</div>
+                <div class="nd">UI / UX Designer</div>
+                <div class="icon">
+                    <div class="iocnn"><img src="ảnh/Chat.png" alt=""></div>
+                    <div class="iocnn"><img src="ảnh/Micro.png" alt=""></div>
+                    <div class="iocnn"><img src="ảnh/ảnh/Icon/Video.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container2">
+            <div class="tong1">
+            <div class="ảnh1"><img src="ảnh/Ava (5).png" alt=""></div>
+            <div class="logo1">
+                <div class="item1"><img src="ảnh/Telegram_black.png" alt=""></div>
+                <div class="item1"><img src="ảnh/Dribbble_black.png" alt=""></div>
+                <div class="item1"><img src="ảnh/LinkedIN_black.png" alt=""></div>
+                <div class="item1"><img src="ảnh/Behance_black.png" alt=""></div>
+            </div>
+            </div>
+            <div class="text1">
+                <div class="textt1">Kenneth<br>Harmon</div>
+                <div class="nd1">Visual Designer</div>
+                <div class="icon1">
+                    <div class="iocnn1"><img src="ảnh/Chat.png" alt=""></div>
+                    <div class="iocnn1"><img src="ảnh/Micro.png" alt=""></div>
+                    <div class="iocnn1"><img src="ảnh/ảnh/Icon/Video.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container3">
+            <div class="tong2">
+            <div class="ảnh2"><img src="ảnh/Ava (1).png" alt=""></div>
+            <div class="logo2">
+                <div class="item2"><img src="ảnh/Telegram_black.png" alt=""></div>
+                <div class="item2"><img src="ảnh/Dribbble_black.png" alt=""></div>
+                <div class="item2"><img src="ảnh/LinkedIN_black.png" alt=""></div>
+                <div class="item2"><img src="ảnh/Behance_black.png" alt=""></div>
+            </div>
+            </div>
+            <div class="text2">
+                <div class="textt2">Jonas<br>Jacobs</div>
+                <div class="nd2">Information<br>Architect</div>
+                <div class="icon2">
+                    <div class="iocnn2"><img src="ảnh/Chat.png" alt=""></div>
+                    <div class="iocnn2"><img src="ảnh/Micro.png" alt=""></div>
+                    <div class="iocnn2"><img src="ảnh/ảnh/Icon/Video.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container4">
+            <div class="tong3">
+            <div class="ảnh3"><img src="ảnh/Ava (2).png" alt=""></div>
+            <div class="logo3">
+                <div class="item3"><img src="ảnh/Telegram_black.png" alt=""></div>
+                <div class="item3"><img src="ảnh/Dribbble_black.png" alt=""></div>
+                <div class="item3"><img src="ảnh/LinkedIN_black.png" alt=""></div>
+                <div class="item3"><img src="ảnh/Behance_black.png" alt=""></div>
+            </div>
+            </div>
+            <div class="text3">
+                <div class="textt3">Julia<br>Kelley</div>
+                <div class="nd3">Product<br>Designer</div>
+                <div class="icon3">
+                    <div class="iocnn3"><img src="ảnh/Chat.png" alt=""></div>
+                    <div class="iocnn3"><img src="ảnh/Micro.png" alt=""></div>
+                    <div class="iocnn3"><img src="ảnh/ảnh/Icon/Video.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container5">
+            <div class="tong4">
+            <div class="ảnh4"><img src="ảnh/Ava (3).png" alt=""></div>
+            <div class="logo4">
+                <div class="item4"><img src="ảnh/Telegram_black.png" alt=""></div>
+                <div class="item4"><img src="ảnh/Dribbble_black.png" alt=""></div>
+                <div class="item4"><img src="ảnh/LinkedIN_black.png" alt=""></div>
+                <div class="item4"><img src="ảnh/Behance_black.png" alt=""></div>
+            </div>
+            </div>
+            <div class="text4">
+                <div class="textt4">Brian<br>Fisher</div>
+                <div class="nd4">Motion<br>Designer</div>
+                <div class="icon4">
+                    <div class="iocnn4"><img src="ảnh/Chat.png" alt=""></div>
+                    <div class="iocnn4"><img src="ảnh/Micro.png" alt=""></div>
+                    <div class="iocnn4"><img src="ảnh/ảnh/Icon/Video.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container6">
+            <div class="tong5">
+            <div class="ảnh5"><img src="ảnh/Ava (4).png" alt=""></div>
+            <div class="logo5">
+                <div class="item5"><img src="ảnh/Telegram_black.png" alt=""></div>
+                <div class="item5"><img src="ảnh/Dribbble_black.png" alt=""></div>
+                <div class="item5"><img src="ảnh/LinkedIN_black.png" alt=""></div>
+                <div class="item5"><img src="ảnh/Behance_black.png" alt=""></div>
+            </div>
+            </div>
+            <div class="text5">
+                <div class="textt5">Joan<br>Glenn</div>
+                <div class="nd5">Interaction<br>Designer</div>
+                <div class="icon5">
+                    <div class="iocnn5"><img src="ảnh/Chat.png" alt=""></div>
+                    <div class="iocnn5"><img src="ảnh/Micro.png" alt=""></div>
+                    <div class="iocnn5"><img src="ảnh/ảnh/Icon/Video.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
